@@ -66,7 +66,6 @@ Demerits
 8)Teleport community edition supports only uses local users or github for identity-based authentication.only community support is available.No RBAC,No SSO   integration,No paid support available
 
 
-9) When deployed in agentless mode : Teleport can be deployed with a tiny footprint as an authentication gateway/proxy and you can keep your existing SSH servers on the nodes.But some Teleport features, such as cluster introspection, will not be available unless the Teleport SSH daemon is present on all cluster nodes.
 
 
 
