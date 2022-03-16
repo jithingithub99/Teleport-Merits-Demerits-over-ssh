@@ -3,7 +3,7 @@
  Why we go with Teleport 
 ---
 
-In general we use ssh-key to login to a node that is not in the local network.For this we need private keys of the server/vm and need to add it everytime while we accees the systems.Stolen private keys can bite you from a security standpoint for a long time because there is no auto-expiry time for keys, and they work until manually removed from the server.Key rotation can be a problem.Hard to implement on a large fleet of SSH servers
+In general we use ssh-key to login to a node that is not in the local network.For this we need private keys of the server/vm and need to add it everytime while we accees the systems.Stolen private keys can bite you from a security standpoint for a long time because there is no auto-expiry time for keys, and they work until manually removed from the server.Also key rotation can be a problem.Moreover it is hard to implement on a large fleet of SSH servers
 
 To avoid this difficulty we can use teleport which easily enforce MFA, RBAC, and SSO using identity-based short-lived certificates and leave SSH keys behind. This provides SSH access with minimal configuration
 
