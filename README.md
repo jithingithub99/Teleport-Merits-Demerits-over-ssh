@@ -8,7 +8,8 @@ In general we use ssh-key to login to a node that is not in the local network.Fo
 To avoid this difficulty we can use teleport which easily enforce MFA, RBAC, and SSO using identity-based short-lived certificates and leave SSH keys behind. This provides SSH access with minimal configuration
 
 
-
+Merits 
+--------------
 
 * Certificate-centric design enables Teleport to deliver SSO, RBAC, per-session MFA, and other modern security best practices for SSH access 
 
